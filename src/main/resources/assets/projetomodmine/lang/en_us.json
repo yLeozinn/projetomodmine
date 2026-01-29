@@ -1,5 +1,6 @@
 {
-  "itemGroup.projetomodmine": "Example Mod Tab",
-  "block.projetomodmine.example_block": "Example Block",
-  "item.projetomodmine.example_item": "Example Item"
+  "item.projetomodmine.raw_tungsten": "Raw Tungsten",
+  "item.projetomodmine.tungsten_ingot": "Tungsten Ingot",
+  "block.projetomodmine.tungsten_ore": "Tungsten Ore",
+  "creativetab.projetomodmine.tungsten_tab": "Tungsten Additions"
 }

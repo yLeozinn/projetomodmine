@@ -1,0 +1,4 @@
+// 1.21.1	2026-01-29T02:39:07.6514806	Registries
+aebbdbf6b609f8e9a1ed87f115509034d3aa8c08 data/projetomodmine/neoforge/biome_modifier/add_tungsten_ore.json
+df3bd80e2f6f441f38c4e1138eeb35e366998b46 data/projetomodmine/worldgen/configured_feature/tungsten_ore.json
+98ca76e27214b6018503f7be04527ae12a46cd32 data/projetomodmine/worldgen/placed_feature/tungsten_ore_placed.json

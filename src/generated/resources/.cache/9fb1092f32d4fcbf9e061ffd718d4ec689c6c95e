@@ -1,0 +1,5 @@
+// 1.21.1	2026-01-28T23:17:37.4806195	Recipes
+9b91fb2cc9150d913af5bede32f93fd11dd600a1 data/minecraft/advancement/recipes/misc/tungsten_ingot_from_blasting_raw_tungsten.json
+ba29a611f498bbcd29e124306e4bb61a0323fb5a data/minecraft/advancement/recipes/misc/tungsten_ingot_from_smelting_raw_tungsten.json
+35c40173a43f5e193e8340e94d811ffcf9b7bab7 data/minecraft/recipe/tungsten_ingot_from_blasting_raw_tungsten.json
+8c9aedb43a389669ac86069054bf37de59de337f data/minecraft/recipe/tungsten_ingot_from_smelting_raw_tungsten.json

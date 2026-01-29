@@ -64,6 +64,7 @@ public class Projetomodmine {
     public Projetomodmine(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
 
+        ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
