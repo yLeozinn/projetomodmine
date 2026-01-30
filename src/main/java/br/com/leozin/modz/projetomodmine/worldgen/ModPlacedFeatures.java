@@ -15,13 +15,23 @@ import java.util.List;
 public class ModPlacedFeatures {
     public static final ResourceKey<PlacedFeature> TUNGSTEN_ORE_PLACED_KEY = registerKey("tungsten_ore_placed");
 
+    public static final ResourceKey<PlacedFeature> MOISSANITE_ORE_PLACED_KEY = registerKey("moissanite_ore_placed");
+
     public static void bootstrap(BootstrapContext<PlacedFeature> context) {
         Holder<ConfiguredFeature<?, ?>> configuredFeature = context.lookup(Registries.CONFIGURED_FEATURE)
                 .getOrThrow(ModConfiguredFeatures.OVERWORLD_TUNGSTEN_ORE_KEY);
 
+        Holder<ConfiguredFeature<?, ?>> moissaniteFeature = context.lookup(Registries.CONFIGURED_FEATURE)
+                .getOrThrow(ModConfiguredFeatures.OVERWORLD_MOISSANITE_ORE_KEY);
+
         register(context, TUNGSTEN_ORE_PLACED_KEY, configuredFeature,
                 Modifiers.commonOrePlacement(10,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(80))));
+
+        register(context, MOISSANITE_ORE_PLACED_KEY, moissaniteFeature,
+                Modifiers.commonOrePlacement(7,
+                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.absolute(16))
+                ));
     }
 
     public static ResourceKey<PlacedFeature> registerKey(String name) {

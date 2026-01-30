@@ -1,4 +1,7 @@
-// 1.21.1	2026-01-29T02:39:07.6514806	Registries
+// 1.21.1	2026-01-30T01:46:19.0280635	Registries
+babd720928b9fd8cc3c0f7becf932cba7a1427ef data/projetomodmine/neoforge/biome_modifier/add_moissanite_ore.json
 aebbdbf6b609f8e9a1ed87f115509034d3aa8c08 data/projetomodmine/neoforge/biome_modifier/add_tungsten_ore.json
+84d0fa13f493f958a7256a1353ad207e4b455991 data/projetomodmine/worldgen/configured_feature/moissanite_ore.json
 df3bd80e2f6f441f38c4e1138eeb35e366998b46 data/projetomodmine/worldgen/configured_feature/tungsten_ore.json
+ac92157e981eb703433aea6461d6585d206e9a95 data/projetomodmine/worldgen/placed_feature/moissanite_ore_placed.json
 98ca76e27214b6018503f7be04527ae12a46cd32 data/projetomodmine/worldgen/placed_feature/tungsten_ore_placed.json

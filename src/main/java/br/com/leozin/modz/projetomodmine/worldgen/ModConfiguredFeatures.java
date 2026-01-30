@@ -13,11 +13,14 @@ import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfigur
 import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration;
 import net.minecraft.world.level.levelgen.structure.templatesystem.RuleTest;
 import net.minecraft.world.level.levelgen.structure.templatesystem.TagMatchTest;
+import net.neoforged.fml.common.Mod;
 
 import java.util.List;
 
 public class ModConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_TUNGSTEN_ORE_KEY = registerKey("tungsten_ore");
+
+    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_MOISSANITE_ORE_KEY = registerKey("moissanite_ore");
 
     public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {
 
@@ -29,7 +32,13 @@ public class ModConfiguredFeatures {
                 OreConfiguration.target(deepslateReplaceables, ModBlocks.TUNGSTEN_ORE.get().defaultBlockState())
         );
 
+        List<OreConfiguration.TargetBlockState> moissaniteOres = List.of(
+                OreConfiguration.target(stoneReplaceables, ModBlocks.MOISSANITE_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModBlocks.MOISSANITE_ORE.get().defaultBlockState())
+        );
+
         register(context, OVERWORLD_TUNGSTEN_ORE_KEY, Feature.ORE, new OreConfiguration(overworldTungstenOres, 9));
+        register(context, OVERWORLD_MOISSANITE_ORE_KEY, Feature.ORE, new OreConfiguration(moissaniteOres, 8));
     }
 
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name){
