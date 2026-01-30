@@ -2,6 +2,7 @@ package br.com.leozin.modz.projetomodmine;
 
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredHolder;
 
@@ -20,4 +21,10 @@ public class ModItems {
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
+
+    public static final DeferredHolder<Item, Item> MOISSANITE_SHARD = ITEMS.register("moissanite_shard",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredHolder<Item, Item> MOISSANITE = ITEMS.register("moissanite",
+            () -> new Item(new Item.Properties()));
 }

@@ -1,3 +1,4 @@
-// 1.21.1	2026-01-28T21:25:28.743961	Tags for minecraft:block mod id projetomodmine
-cc0a4a36391d9fa9263b965be5fee48597646e26 data/minecraft/tags/block/mineable/pickaxe.json
+// 1.21.1	2026-01-29T19:39:56.0956877	Tags for minecraft:block mod id projetomodmine
+4615399425b3a8f1a9d36fb114b89bd1f30f774e data/minecraft/tags/block/mineable/pickaxe.json
+3e074429a5b08b338c7c7d8a6a592f71158e6e79 data/minecraft/tags/block/needs_diamond_tool.json
 cc0a4a36391d9fa9263b965be5fee48597646e26 data/minecraft/tags/block/needs_iron_tool.json

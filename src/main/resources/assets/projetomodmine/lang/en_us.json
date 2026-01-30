@@ -2,5 +2,8 @@
   "item.projetomodmine.raw_tungsten": "Raw Tungsten",
   "item.projetomodmine.tungsten_ingot": "Tungsten Ingot",
   "block.projetomodmine.tungsten_ore": "Tungsten Ore",
-  "creativetab.projetomodmine.tungsten_tab": "Tungsten Additions"
+  "creativetab.projetomodmine.tungsten_tab": "Tungsten Additions",
+  "item.projetomodmine.moissanite_shard": "Moissanite Shard",
+  "item.projetomodmine.moissanite": "Moissanite Gem",
+  "block.projetomodmine.moissanite_ore": "Moissanite Ore"
 }

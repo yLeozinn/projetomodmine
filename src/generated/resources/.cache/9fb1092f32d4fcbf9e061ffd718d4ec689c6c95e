@@ -1,5 +1,9 @@
-// 1.21.1	2026-01-28T23:17:37.4806195	Recipes
+// 1.21.1	2026-01-29T19:52:19.504574	Recipes
+05787c904c290c9597c560c9cb892f87fb34000f data/minecraft/advancement/recipes/misc/moissanite_shards_from_gem.json
 9b91fb2cc9150d913af5bede32f93fd11dd600a1 data/minecraft/advancement/recipes/misc/tungsten_ingot_from_blasting_raw_tungsten.json
 ba29a611f498bbcd29e124306e4bb61a0323fb5a data/minecraft/advancement/recipes/misc/tungsten_ingot_from_smelting_raw_tungsten.json
+7b5d6d204543bee074203b855c4a887324a491ff data/minecraft/recipe/moissanite_shards_from_gem.json
 35c40173a43f5e193e8340e94d811ffcf9b7bab7 data/minecraft/recipe/tungsten_ingot_from_blasting_raw_tungsten.json
 8c9aedb43a389669ac86069054bf37de59de337f data/minecraft/recipe/tungsten_ingot_from_smelting_raw_tungsten.json
+1a9a7f53a6a48ace4767a452eebb33626443c577 data/projetomodmine/advancement/recipes/misc/moissanite.json
+896aa1e5a7a45798ba10cf3b884a37d669727c94 data/projetomodmine/recipe/moissanite.json

@@ -21,6 +21,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_TUNGSTEN.get());
                         output.accept(ModItems.TUNGSTEN_INGOT.get());
                         output.accept(ModBlocks.TUNGSTEN_ORE.get());
+                        output.accept(ModItems.MOISSANITE_SHARD.get());
+                        output.accept(ModItems.MOISSANITE.get());
+                        output.accept(ModBlocks.MOISSANITE_ORE.get());
                     })
                     .build());
 

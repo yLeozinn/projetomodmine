@@ -17,10 +17,17 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
-        // cria o arquivo pickaxe.json automático
-        this.tag(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.TUNGSTEN_ORE.get());
+        // cria o arquivo pickaxe.json
+        this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
+                .add(ModBlocks.TUNGSTEN_ORE.get())
+                .add(ModBlocks.MOISSANITE_ORE.get());
 
-        // cria o arquivo needs_iron_tool.json automático
-        this.tag(BlockTags.NEEDS_IRON_TOOL).add(ModBlocks.TUNGSTEN_ORE.get());
+        // cria o arquivo needs_iron_tool.json
+        this.tag(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.TUNGSTEN_ORE.get());
+
+        // cria o arquivo needs_diamond_tool.json
+        this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.MOISSANITE_ORE.get());
     }
 }
